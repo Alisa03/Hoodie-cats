@@ -1,0 +1,15 @@
+.list {
+    column-count: 2;
+
+    & li {
+        list-style: disc;
+        list-style-position: inside;
+
+
+        page-break-inside: avoid;
+            break-inside: avoid;
+    }
+}
+.icon {
+    width: 5vw;
+}

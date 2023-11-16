@@ -1,0 +1,11 @@
+:root {
+    --color-text: #E0E0E0;
+    --color-background: #131313;
+
+    --active1: #FF99BE;
+    --active2: #99F7FF;
+    --active3: #F09AFF;
+
+    --ff-text: 'Roboto';
+    --ff-title: 'Orbitron'
+}
