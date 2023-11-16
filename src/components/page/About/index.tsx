@@ -4,7 +4,7 @@ const About = () => <>
     <p className="text">
         Hoodie cats is a collection of 333 unique pixelated kittens, on the Polygon network.
     </p>
-    <p className="text">Используются слои: </p>
+    <p className="text">Layers are used:</p>
     <ul className={`text ${s.list}`}>
         <li>Body</li>
         <li>Eyes</li>

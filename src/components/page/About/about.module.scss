@@ -10,6 +10,13 @@
             break-inside: avoid;
     }
 }
-.icon {
-    width: 5vw;
+.icon {width: 5vw}
+
+
+@media (max-width: 770px) {
+    .icon {width: 10vh}
+}
+
+@media (max-width: 450px) {
+    .icon {width: 15vw}
 }
