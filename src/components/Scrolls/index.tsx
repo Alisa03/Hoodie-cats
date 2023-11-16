@@ -10,9 +10,10 @@ const Scrolls = () => (
         <div className={s.list}>
             {[...new Array(ROWS)].map((_, i) => (
                 <InfiniteLoopSlider key={i} duration={random(DURATION - 5000, DURATION + 5000)} reverse={i % 2}>
-                    {[...new Array(16)].map((t, i) => (
-                        <img className={s.img} key={i} src={`/image/photo${i + 1}.webp`} alt="" />
-                    ))}
+                    {[...new Array(16)].map((t, i) => {
+                        t = i + 1
+                        return <img className={s.img} key={i} src={`/image/photo${t}.webp`} alt="" />
+                    })}
                 </InfiniteLoopSlider>
             ))}
             <div className={s.fade} />
